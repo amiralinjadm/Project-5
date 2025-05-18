@@ -7,3 +7,9 @@ def fibonacci(n):
 
 for i in range(1, 9):
     print(fibonacci(i))
+
+def reverse_string(s):
+  return s[::-1] 
+input_string = "amin"
+reversed_string = reverse_string(input_string)
+print(reversed_string)
